@@ -1,26 +1,12 @@
 ---
 layout: default
-title: Long Haul
+title: Multilingual Digital Humanities
 ---
 
 <div class="home" id="home">
-  <h1 class="pageTitle">Recent Posts</h1>
-  <ul class="posts noList">
-    {% for post in paginator.posts %}
-      <li>
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
-      </li>
-    {% endfor %}
-  </ul>
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a> 
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
-    {% endif %}
-  </div>
+  <h1 class="pageTitle">Language matters</h1>
+<p><em>Multilingual DH</em> is a loosely-organized international network of scholars using digital humanities tools and methods on languages other than English. We work in many environments, including academia, libraries, museums, and beyond, but share the goal of raising the visibility of scholarship in and about many languages.</p>
+<p>DH scholarship is frequently criticised as being "English-centric" and threfore culturally and technologically biased. This bias takes many forms, from the lack of awareness of DH scholarship from non-Anglophone countries, to the lack of robust tools for working with non-Latin scripts.</p>
+<p>This website, and its associated <a href="https://github.com/multilingual-dh">GitHub organization</a> and <a href="https://mailman.stanford.edu/mailman/listinfo/multilingual-dh">mailing list</a>, provides space to share their achievements, failures, resources, and good pratices for working with multi-lingual and multi-script data. To participate, please <a href="https://mailman.stanford.edu/mailman/listinfo/multilingual-dh">join the conversation on the mailing list</a>!</p>
+  
 </div>

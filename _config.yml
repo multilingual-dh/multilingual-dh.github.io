@@ -12,12 +12,12 @@ plugins: [jekyll-paginate]
 paginate: 5
 
 navigation:
-  - title: Home
-    url: /index.html
   - title: About
-    url: /about
-  - title: Contact
-    url: /contact
+    url: /index.html
+  - title: Resources
+    url: /resources
+  - title: DH 2019 Workshop
+    url: /dh2019
 
 #social:
 #  github: brianmaierjr

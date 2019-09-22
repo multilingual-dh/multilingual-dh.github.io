@@ -704,9 +704,9 @@ img, video, audio, iframe, object {
 LINK STYLING
 ***************/
 a {
-  color: #286493; }
+  color: #245983; }
   a:hover {
-    color: #143249; }
+    color: #27608b; }
 
 /***************
 MENU STYLING
@@ -800,7 +800,7 @@ PAGE STYLES
 HEADER STYLING
 ***************/
 .header {
-  background-color: #23567f;
+  background-color: #245983;
   background-image: url("../img/touring.jpg");
   background-size: cover;
   background-position: center center;
