@@ -1,23 +1,38 @@
 title: Multilingual DH
-description: Resources for doing digital humanities in many languages.
-
 url: http://multilingualdh.org
-baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
 paginate: 5
 
-navigation:
-  - title: About
-    url: /index.html
-  - title: Resources
-    url: /resources
-  - title: DH 2019 Workshop
-    url: /dh2019
+# navigation:
+#   - title: About
+#     url: /index.html
+#   - title: Resources
+#     url: /resources
+#   - title: DH 2019 Workshop
+#     url: /dh2019
+
+name: 
+  en: Multilingual DH
+  de: Mehrsprachige Digital Humanities 
+  it: Digital Humanities Multilingue
+  eo: Multlingvaj Teksta Analizo 
+description: 
+  en: Resources for doing digital humanities in many languages
+  de: Ressourcen für die Textanalyse in vielen Sprachen
+  it: Risorse per l'analisi del testo in molte lingue
+  eo: Metodoj por analizo de tekstoj en multaj lingvoj
+footer:
+  en: An open-source project.
+  de: Ein open-source Projekt. 
+  it: Un progetto open-source.
+  eo: Malferma projecto
+exclude: [README.md]
+permalink: pretty
+repository: mrzool/polyglot-jekyll
+base-url: ""
 
 #social:
 #  github: brianmaierjr
