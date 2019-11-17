@@ -1,24 +1,58 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="{{ page.language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>{{ page.title }} | {{ site.name[page.language] }}</title>
+    <meta name="author" content="mrzool">
+    <meta name="description" content="{{ site.description[page.language] }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% include head.html %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="mrzool_">
+    <meta name="twitter:creator" content="mrzool">
+    <meta name="twitter:title" content="Polyglot Jekyll">
+    <meta name="twitter:description" content="Plugin-free multilanguage Jekyll websites">
 
-<body>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
-   {% include header.html %}
+  </head>
+  <body>
 
-   <div class="content">
-      <div class="container">
-         {{ content }}
-      </div>
-   </div><!-- end .content -->
+    <nav>
+      {% assign pages = site.pages | sort: "nav-order"  %}
+      {% for p in pages %}
+        {% if p.language == page.language %}
+          <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+    <nav class="language-switcher">
+      {% if page.name contains "index" %}
+        <a class="eo" href="{{ site.baseurl }}/">EO</a>
+        <a class="en" href="{{ site.baseurl | append: "/en" }}">EN</a>
+        <a class="de" href="{{ site.baseurl | append: "/de" }}">DE</a>
+        <a class="it" href="{{ site.baseurl | append: "/it" }}">IT</a>
+      {% else %}
+        <a class="eo" href="{{ site.baseurl | append: page.handle }}">EO</a>
+        <a class="en" href="{{ site.baseurl | append: "/en" | append: page.handle }}">EN</a>
+        <a class="de" href="{{ site.baseurl | append: "/de" | append: page.handle }}">DE</a>
+        <a class="it" href="{{ site.baseurl | append: "/it" | append: page.handle }}">IT</a>
+      {% endif %}
+    </nav>
 
-   {% include footer.html %}
-   {% include scripts.html %}
+    <header>
+      <h1>{{ site.name[page.language] }}</h1>
+      <h2>{{ site.description[page.language] }}</h2>
+    </header>
 
-</body>
+    <main>
+      {{ content }}
+    </main>
 
+    <!-- <footer> -->
+    <!-- <small>{{ site.footer[page.language] | markdownify }}</small> -->
+    <!-- </footer> -->
+
+  </body>
 </html>
