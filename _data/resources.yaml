@@ -1,0 +1,42 @@
+iloj:
+- nomo:
+    en: pioNER - named entity annotated datasets and GloVe models for the Armenian language
+  lingvoj: [am]
+  programlinvgo: Pitono
+  pri:
+    en: Training data for Armenian NER using Wikipedia
+  ligilo: "https://github.com/ispras-texterra/pioner"
+  notoj: 
+  speco: dateno
+- nomo:
+    en: Stanford Tagger
+    eo: Stanforda Parolpartiloj
+  lingvoj: [ar, zh, fr, es, de] 
+  programlingvo: Ĝavo
+  ligilo: "https://nlp.stanford.edu/software/tagger.shtml"
+  speci: syntaksanaliso
+  zh: "https://github.com/quinnanya/dlcl204/blob/master/chinese/pos_chinese.md" 
+- nomo:
+    en: Arabic-NLP GitHub Tag
+  ligilo: "https://github.com/topics/arabic-nlp"
+  lingvoj: [ar]
+  speci: listo 
+  notoj:
+    en: includes pointers to repos for sentiment analysis for tweets, reviews, and standard Arabic, named entity recognition, etc.
+- nomo:
+    en: Part-of-speech tagging for Chinese
+  ligilo: "https://github.com/quinnanya/dlcl204/blob/master/chinese/pos_chinese.md"
+  speco: kielo
+
+vortaro:
+  - eo: kielo
+    en: tutorial
+  - eo: syntaksanaliso
+    en: tagging
+  - eo: listo
+    en: list
+  - eo: dateno
+    en: data
+  - eo: lingvoj
+    en: languages
+  
