@@ -4,7 +4,7 @@ This repo is for the website of the *Multilingual Digital Humanities* group. Any
 
 The site is built with Jekyll. 
 
-## Issues with an existing translation? 
+## Issues with a translation? 
 
 If you see an issue with some existing text, or code, whether it's a translation error, or something else, please open a new issue via the issues tab above.
 
