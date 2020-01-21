@@ -14,7 +14,7 @@ iloj:
   lingvoj: [ar, zh, fr, es, de] 
   programlingvo: Ĝavo
   ligilo: "https://nlp.stanford.edu/software/tagger.shtml"
-  speci: syntaksanaliso
+  speco: syntaksanaliso
   zh: "https://github.com/quinnanya/dlcl204/blob/master/chinese/pos_chinese.md" 
 - nomo:
     en: Arabic-NLP GitHub Tag
