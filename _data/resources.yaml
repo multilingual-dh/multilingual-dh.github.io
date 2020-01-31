@@ -2,7 +2,7 @@ iloj:
 - nomo:
     en: pioNER - named entity annotated datasets and GloVe models for the Armenian language
   lingvoj: [am]
-  programlinvgo: Pitono
+  programlingvo: Pitono
   pri:
     en: Training data for Armenian NER using Wikipedia
   ligilo: "https://github.com/ispras-texterra/pioner"
@@ -25,10 +25,34 @@ iloj:
     en: includes pointers to repos for sentiment analysis for tweets, reviews, and standard Arabic, named entity recognition, etc.
 - nomo:
     en: Part-of-speech tagging for Chinese
+  lingvoj: [zh]
   ligilo: "https://github.com/quinnanya/dlcl204/blob/master/chinese/pos_chinese.md"
   speco: kielo
 
+- nomo:
+    eo: Koshorto
+    ko: Koshort 
+    en: Koshort
+  lingvoj: [ko]
+  pri: 
+    ko: 파이썬 한국어 온라인 트렌드 스트리밍
+    eo: Pitona pakaĵo por tektsaroj pri koreaj interretaj tendencoj 
+    en: Korean trends streaming in python
+  ligilo: 
+    ko: https://koshort.readthedocs.io/ko/latest/
+    en: https://koshort.readthedocs.io/en/latest/
+  speco: tekstaro
+  programlingvo: Pitono
+  notoj:
+    ko: # TODO: Enter more details here, in Korean
+    eo: Inspirita de la projekto KoNLPy, kiu havas similajn ideojn.
+    en: Inspired by the project KoNLPy, which has a similar philosophy. 
+
 vortaro:
+  - eo: lingvoj
+    en: languages
+  - eo: nomo
+    en: name
   - eo: kielo
     en: tutorial
   - eo: syntaksanaliso
@@ -39,4 +63,14 @@ vortaro:
     en: data
   - eo: lingvoj
     en: languages
+  - eo: programlingvo
+    en: programming language
+  - eo: Pitono
+    en: Python
+  - eo: Ĝavao
+    en: Java
+  - eo: pri
+    en: about
+  - eo: tekstaro
+    en: corpus
   
