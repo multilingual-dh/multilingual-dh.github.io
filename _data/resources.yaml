@@ -12,11 +12,13 @@ iloj:
     en: Stanford Tagger
     eo: Stanforda Parolpartiloj
   lingvoj: [ar, zh, fr, es, de] 
-  programlingvo: Ĝavo
+  programlingvo: Ĝavao
   ligilo: "https://nlp.stanford.edu/software/tagger.shtml"
   speco: syntaksanaliso
-  zh: "https://github.com/quinnanya/dlcl204/blob/master/chinese/pos_chinese.md" 
+  kielo: 
+    zh: "https://github.com/quinnanya/dlcl204/blob/master/chinese/pos_chinese.md" 
 - nomo:
+    eo: Listo de Tekstanalyza Programaroj en GitHubo
     en: Arabic-NLP GitHub Tag
   ligilo: "https://github.com/topics/arabic-nlp"
   lingvoj: [ar]
@@ -24,11 +26,11 @@ iloj:
   notoj:
     en: includes pointers to repos for sentiment analysis for tweets, reviews, and standard Arabic, named entity recognition, etc.
 - nomo:
+    eo: Parolparti la Ĉinan lingvon
     en: Part-of-speech tagging for Chinese
   lingvoj: [zh]
   ligilo: "https://github.com/quinnanya/dlcl204/blob/master/chinese/pos_chinese.md"
   speco: kielo
-
 - nomo:
     eo: Koshorto
     ko: Koshort 
@@ -73,4 +75,3 @@ vortaro:
     en: about
   - eo: tekstaro
     en: corpus
-  
