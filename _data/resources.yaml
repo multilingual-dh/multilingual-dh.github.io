@@ -32,6 +32,22 @@ iloj:
   ligilo: "https://github.com/quinnanya/dlcl204/blob/master/chinese/pos_chinese.md"
   speco: kielo
 - nomo:
+    eo: KoNLPio
+    en: KoNLPy
+    ko: KoNLPy
+  programlingvo:
+    eo: Pitono
+  lingvoj: [ko]
+  ligilo: 
+    ko: "http://konlpy.org/ko/latest/"
+    en: "http://konlpy.org/en/latest/"
+  speco: programaro 
+  notoj: 
+    eo: "Pitona programaro por textanalizo de la korea lingvo."
+    en: "Python package for natural language processing (NLP) of the Korean language."
+    ko: "한국어 자연어 처리를 위한 파이썬 패키지입니다."
+
+- nomo:
     eo: Koshorto
     ko: Koshort 
     en: Koshort
