@@ -1,10 +1,12 @@
 iloj:
 - nomo:
     en: pioNER - named entity annotated datasets and GloVe models for the Armenian language
+    it: pioNER - dataset annotati per named entity e modelli GloVe per l'Armeno
   lingvoj: [am]
   programlingvo: Pitono
   pri:
     en: Training data for Armenian NER using Wikipedia
+    it: Dati per eseguire il training Armeno di NER con Wikipedia
   ligilo: "https://github.com/ispras-texterra/pioner"
   notoj: 
   speco: dateno
@@ -25,9 +27,11 @@ iloj:
   speci: listo 
   notoj:
     en: includes pointers to repos for sentiment analysis for tweets, reviews, and standard Arabic, named entity recognition, etc.
+    it: include collegamenti alle repository per eseguire sentiment analysis su tweets, reviews, e Arabo standard, NER, ecc.
 - nomo:
     eo: Parolparti la Ĉinan lingvon
     en: Part-of-speech tagging for Chinese
+    it: Taggare parti del discorso in Cinese 
   lingvoj: [zh]
   ligilo: "https://github.com/quinnanya/dlcl204/blob/master/chinese/pos_chinese.md"
   speco: kielo
@@ -46,6 +50,7 @@ iloj:
     eo: "Pitona programaro por textanalizo de la korea lingvo."
     en: "Python package for natural language processing (NLP) of the Korean language."
     ko: "한국어 자연어 처리를 위한 파이썬 패키지입니다."
+    it: "Pacchetto Python per NLP in Koreano"
 
 - nomo:
     eo: Koshorto
@@ -64,25 +69,33 @@ iloj:
   notoj:
     ko: # TODO: Enter more details here, in Korean
     eo: Inspirita de la projekto KoNLPy, kiu havas similajn ideojn.
-    en: Inspired by the project KoNLPy, which has a similar philosophy. 
+    en: Inspired by the project KoNLPy, which has a similar philosophy.
+    it: Ispirato dal progetto KoNLPy, che ha una filosofia simile.
 
 vortaro:
   - eo: lingvoj
     en: languages
+    it: lingue
   - eo: nomo
     en: name
+    it: nome
   - eo: kielo
     en: tutorial
+    it: tutorial
   - eo: syntaksanaliso
     en: tagging
+    it: taggare
   - eo: listo
     en: list
+    it: lista
   - eo: dateno
     en: data
+    it: dati
   - eo: lingvoj
     en: languages
   - eo: programlingvo
     en: programming language
+    it: linguaggio di programmazione
   - eo: Pitono
     en: Python
   - eo: Ĝavao
@@ -93,3 +106,4 @@ vortaro:
     en: corpus
   - eo: speco
     en: type
+    it: tipo
