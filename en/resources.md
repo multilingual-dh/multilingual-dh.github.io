@@ -12,7 +12,7 @@ working with non-English languages and non-Latin scripts.
 
 **Resources for multiple languages**
 
--   The *Multilingual DH group* has put together a list of [resources
+-   The *Multilingual DH* group has put together a list of [resources
     for doing natural-language processing in many
     languages](https://github.com/multilingual-dh/nlp-resources)
 
