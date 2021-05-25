@@ -2,6 +2,7 @@
 layout: default
 title: 자료
 language: ko
+order: 1
 ---
 
 자료

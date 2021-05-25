@@ -2,6 +2,7 @@
 layout: default
 title: Multilingual Digital Humanities
 language: en
+order: 1
 ---
 
 # Language matters

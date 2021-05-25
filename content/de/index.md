@@ -2,6 +2,7 @@
 layout: default
 title: Mehrsprachige Digital Humanities 
 language: de
+order: 0
 ---
 
 # Sprache Zählt

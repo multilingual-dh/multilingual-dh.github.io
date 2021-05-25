@@ -2,6 +2,7 @@
 layout: default
 title: Resources
 language: en
+order: 2
 ---
 
 Resources

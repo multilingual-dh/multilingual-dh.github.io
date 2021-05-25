@@ -2,6 +2,7 @@
 layout: default
 title: 多语言数字人文科学
 language: zh
+order: 0
 ---
 
 # 语言很重要

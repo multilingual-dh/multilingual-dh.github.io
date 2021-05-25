@@ -2,6 +2,7 @@
 layout: default
 title: Rimedoj
 language: eo
+order: 1
 ---
 
 Rimedoj

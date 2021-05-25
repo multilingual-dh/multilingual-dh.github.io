@@ -2,6 +2,7 @@
 layout: default
 title: Humanitats Digitals Multilingües
 language: ca
+order: 0
 ---
 
 # La llengua importa

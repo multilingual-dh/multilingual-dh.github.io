@@ -2,6 +2,7 @@
 layout: default
 title: Des humanités numériques multilingues
 language: fr
+order: 0
 ---
 
 # La langue compte
