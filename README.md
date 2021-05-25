@@ -1,17 +1,32 @@
-## Multilingual Digital Humanities website
+# Ema Template
 
-This repo is for the website of the *Multilingual Digital Humanities* group. Anyone with an interest in using digital humanities tools and methodologies non-English (and non-Latin-script) languages is welcome to [join the mailing list](https://mailman.stanford.edu/mailman/listinfo/multilingual-dh).
+This repository represents a simple example of [Ema](https://ema.srid.ca/) — it generates a basic site with sidebar from a directory of Markdown files using Pandoc & Blaze HTML — and as such acts as a **template repository** to use for bootstrapping your next static site using Ema.
 
-The site is built with Jekyll. 
+The generated HTML site can be previewed here: https://srid.github.io/ema-template/
 
-## Issues with a translation? 
+## Getting Started
 
-If you see an issue with some existing text, or code, whether it's a translation error, or something else, please open a new issue via the issues tab above.
+To develop with full IDE support in Visual Studio Code, follow these steps:
 
-Then, please fork the repo, make whatever edits you feel are necessary, and submit a pull request.
+- [Install Nix](https://nixos.org/download.html) & [enable Flakes](https://nixos.wiki/wiki/Flakes)
+- Run `nix-shell --run haskell-language-server` to sanity check your environment 
+- [Open as single-folder workspace](https://code.visualstudio.com/docs/editor/workspaces#_singlefolder-workspaces) in Visual Studio Code
+    - Install the recommended extensions
+    - <kbd>Ctrl+Shift+P</kbd> to run command "Nix-Env: Select Environment" and select `shell.nix`. The extension will ask you to reload VSCode at the end.
+- Press <kbd>Ctrl+Shift+B</kbd> in VSCode, or run `bin/run` (`bin/run-via-tmux` if you have tmux installed) in terminal, to launch the Ema dev server, and navigate to http://localhost:9001/
 
-## How to add a new translation
+All but the final step need to be done only once. Check [the Ema tutorial](https://ema.srid.ca/start/tutorial) next.
 
-1. Create a new folder in the root directory, using the two-letter language code of the language (e.g., `zh` = Mandarin Chinese).
-2. Add two lines to [the language switcher in the template](https://github.com/multilingual-dh/multilingual-dh.github.io/blob/master/_layouts/default.html#L33), with that language code. 
-3. Modify [the SASS](https://github.com/multilingual-dh/multilingual-dh.github.io/blob/master/css/style.sass#L68) to include the language code. 
+## Note
+
+- This project uses [relude](https://github.com/kowainik/relude) as its prelude, as well as [Tailwind+Blaze](https://ema.srid.ca/guide/helpers/tailwind) as CSS utility and HTML DSL. Even though the author highly recommends them, you are of course free to swap them out for the library of your choice.
+- As a first step to using this template, 
+  - change the project name in .cabal, flake.nix and hie.yaml files.
+  - Change the `cname` in .github/workflows/publish.yaml, or remove it to publish to yourname.github.io
+- Configuration:
+  - To change the port, see file bin/run
+  - To change the CLI arguments used by bin/run, see file .ghcid
+  - To update Ema to latest Git revision, run `nix flake lock --update-input ema`
+  - To add/remove Haskell dependencies, see the .cabal file. If a dependency is unavailable in nixpkgs, you can override it (to point to say a Git repo) in the `overrides` attribute of flake.nix. You can imitate the manner in which the `ema` (or `lvar`) package itself is overriden.
+- To generate static site, run: `mkdir ./output && nix run . -- -C ./content gen $(pwd)/output`
+  - You might want to change or remove the `<base>` tag in `Main.hs` depending where you will be deploying the site.
