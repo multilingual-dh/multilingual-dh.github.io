@@ -12,4 +12,4 @@ DH scholarship is frequently criticised as being "English-centric" and therefore
 
 This website, and its associated [GitHub organization](https://github.com/multilingual-dh) and [mailing list](https://mailman.stanford.edu/mailman/listinfo/multilingual-dh), provides space to share their achievements, failures, resources, and good practices for working with multi-lingual and multi-script data. To participate, please [join the conversation on the mailing list](https://mailman.stanford.edu/mailman/listinfo/multilingual-dh)!
 
-We\'ll be looking for feedback soon on a SIG (Special Interest Group) proposal to [ADHO](http://adho.org/), and a working group proposal to [DARIAH](https://www.dariah.eu/).
+Since 2023, we have two institutionally recognized groups: [ADHO Multilingual DH SIG (Special Interest Group)](https://adho.org/sigs/#multilingual-DH) and [DARIAH Working Group on Multilingual DH](https://multilingual.hypotheses.org/). 
