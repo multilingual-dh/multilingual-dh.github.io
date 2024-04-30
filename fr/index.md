@@ -12,4 +12,5 @@ Les travaux en humanités numériques sont souvent critiqués pour leur « angl
 
 Ce site Web, ainsi que l’[organisation GitHub](https://github.com/multilingual-dh) et la [liste de diffusion](https://mailman.stanford.edu/mailman/listinfo/multilingual-dh) qui lui sont associées, offre aux personnes concernées un espace pour partager leurs réussites, leurs échecs, leurs ressources et leurs bonnes pratiques dans le travail sur des données multilingues ou recourant à plusieurs systèmes d’écriture. Pour participer, nous vous invitons à [entrer dans la conversation de la liste de diffusion](https://mailman.stanford.edu/mailman/listinfo/multilingual-dh) !
 
-Nous solliciterons bientôt des avis au sujet d’un SIG (Special Interest Group, ou groupe d’intérêt spécial) à proposer à [ADHO](http://adho.org/) et d’un groupe de travail à proposer à [DARIAH](https://www.dariah.eu/).
+Depuis 2023, nous avons deux groupes reconnus institutionnellement : [ADHO Multilingual DH SIG (Groupe d'Intérêt Spécial)](https://adho.org/sigs/#multilingual-DH) et [DARIAH Working Group on Multilingual DH](https://multilingual.hypotheses.org/). Nous avons également obtenu une place à la conférence ADHO DH2024. Veuillez lire les détails sur la [page DH2024](http://multilingualdh.org/en/dh2024/).
+
